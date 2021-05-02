@@ -1,0 +1,28 @@
+
+.navbar{
+    display:flex;
+    height: 90px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.nav-brand > h1{
+    font-size: 20px;
+    width:100px
+}
+.nav-menu{
+    width:calc(100%-100px);
+    margin: 0 auto;
+}
+.nav-items {
+    display:flex;
+}
+
+.nav-item{
+    padding: 5px;
+    list-style: none;
+    margin:0 20px;
+}

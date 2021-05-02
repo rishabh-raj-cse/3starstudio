@@ -15,7 +15,7 @@ function App() {
           <Home /> 
         </Route>
         <Route  path="/about">
-          <h2>ABOUT AREA</h2>
+          <h2>ABOUT AREA we ah e</h2>
         </Route>
         <Route path="*">
           <h2>NOT FOUND</h2>

@@ -1,0 +1,70 @@
+.container {
+  height: 90vh;
+  background-color: black;
+  color: white;
+}
+
+.container-text {
+  padding: 20px;
+}
+
+.hero-text {
+  margin-top: 15vh;
+  margin-left: 5vw;
+  width: 500px;
+}
+
+.hero-text > span > hr {
+  width: 50px;
+  display: inline-block;
+  color: yellow;
+}
+
+.hero-text > span > p {
+  display: inline-block;
+  margin: 14px 15px 10px;
+  color: yellow;
+}
+
+.hero-text > h1 {
+  padding: 20px 0;
+  line-height: 60px;
+  font-size: 38px;
+}
+
+.hero-text > p {
+  color: rgb(156, 156, 156);
+}
+
+.buttons-area {
+  margin-top: 30px;
+  display:flex;
+  align-items: center;
+}
+.buttons-area > button {
+  width: 150px;
+  height: 40px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buttons-area > div >  a {
+
+  margin-left: 50px;
+  font-size: 20px;
+  width:100px;
+  display:flex;
+  align-items: center;
+}
+
+#icon-next{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#next{
+    padding:0 20px;
+    height:40px;
+    width:40px;
+    
+}
